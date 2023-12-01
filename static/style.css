@@ -1,0 +1,10 @@
+#Home_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    margin: 100px;
+}
+*{
+    background-color: black;
+}

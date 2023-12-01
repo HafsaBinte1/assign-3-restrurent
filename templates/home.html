@@ -1,0 +1,23 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+{% comment %} Add Title  {% endcomment %}
+{% block title %}HOME{% endblock title%}
+
+
+{% comment %} Home content  {% endcomment %}
+
+{% block Home %}
+<div id="Home_content_container" class="">
+  <div class="Info_section">
+    <h1>Wellcome To Eleven Madison</h1>
+    <p>
+      Eleven Madison Park is a fine dining restaurant located inside the Metropolitan Life North Building at 11 Madison Avenue in the Flatiron District of Manhattan, New York City. Owned by chef Daniel Humm's Make it Nice group, it has held 3 Michelin stars since 2012, and was ranked first among The World's 50 Best Restaurants in 2017.
+    </p>
+  </div>
+  <div class="Image_seciton">
+    <img src="{% static 'img1.jpg' %}" alt="" srcset="">
+  </div>
+</div>
+
+{% endblock Home %}
